@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <AvatarJsx /> 
+        <AvatarJsx />
         <h1>BIENVENIDOS</h1>
         <button>boton</button>
         <input/>
