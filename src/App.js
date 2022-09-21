@@ -1,22 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import AvatarJsx from './components/AvatarJsx';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <AvatarJsx /> 
+        <h1>BIENVENIDOS</h1>
+        <button>boton</button>
+        <input/>
       </header>
     </div>
   );
