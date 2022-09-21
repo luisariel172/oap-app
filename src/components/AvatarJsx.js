@@ -4,7 +4,7 @@ const AvatarJsx = (params) => {
     return ( 
         <picture>
             <img src={src} alt='seba'/>
-            Seba
+            Ariel
         </picture>
     )
 }
