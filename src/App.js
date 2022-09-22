@@ -1,17 +1,15 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
-import AvatarJsx from './components/AvatarJsx';
-
+import Navbar from './components/Navbar/Navbar'
+import Saludo from './components/ItemListContainer/Saludo';
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <AvatarJsx />
-        <h1>BIENVENIDOS</h1>
-        <button>boton</button>
-        <input/>
-      </header>
+    <div id="1" className="App">
+     <Navbar />
+     <div style={{color: 'violet'}}>
+     <Saludo bienvenida={'BIENVENIDOS A NUESTRO E-COMMERCE'}/>
+     </div>
     </div>
   );
 }
