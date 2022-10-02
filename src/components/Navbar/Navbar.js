@@ -1,11 +1,13 @@
 import './Navbar.css'
 import Carrito from '../Carrito/Carrito'
+import Logonav from '../Logos/Logonav'
 
 const Navbar = () => {
     return (
         <nav style={{ display: 'flex', justifyContent:'space-around'}}>
             <div>
-                <h1 style={{color: 'violet'}}>Tienda Ojo al Piojo</h1>
+                <Logonav />
+                {/* <h1 style={{color: 'violet'}}>Tienda </h1> */}
             </div>
             <div>
                 <button className='botones'>Souvenirs</button>
