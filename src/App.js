@@ -2,6 +2,8 @@ import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Saludo from './components/ItemListContainer/Saludo';
+import Counter from './components/Counter/Counter';
+
 function App() {
 
   return (
@@ -10,6 +12,7 @@ function App() {
      <div style={{color: 'violet'}}>
      <Saludo bienvenida={'BIENVENIDOS A NUESTRO E-COMMERCE'}/>
      </div>
+     <Counter />
     </div>
   );
 }
