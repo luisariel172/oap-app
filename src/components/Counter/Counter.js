@@ -31,6 +31,7 @@ return (
     <button onClick={decrement}>-</button>
     <button onClick={increment}>+</button>
     <button onClick={reset}>Reset</button>
+    <button onClick={reset}>Agregar al Carrito</button>
     {lugar}
     
 </div>

@@ -1,6 +1,7 @@
 import './Navbar.css'
 import Carrito from '../Carrito/Carrito'
 import Logonav from '../Logos/Logonav'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -10,11 +11,10 @@ const Navbar = () => {
                 {/* <h1 style={{color: 'violet'}}>Tienda </h1> */}
             </div>
             <div>
-                <button className='botones'>Souvenirs</button>
-                <button className='botones'>Bandejas</button>
-                <button className='botones'>Juguetes</button>
-                <button className='botones'>Perfumes</button>
-                <button className='botones'>Ropa</button>
+                <Link to={`/category/souvenir`}className='botones'>Souvenirs</Link>
+                <Link to={`/category/bandeja`} className='botones'>Bandejas</Link>
+                <Link to={`/category/juguete`} className='botones'>Juguetes</Link>
+                <Link to={`/category/perfume`} className='botones'>Perfumes</Link> 
             </div>
             <div>
                 <Carrito />
