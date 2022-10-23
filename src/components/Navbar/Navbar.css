@@ -1,5 +1,5 @@
 .botones {
-    margin: 30px;
+    margin: 40px;
     width: 200px;
     color: rgb(246, 249, 248);
     font-size: 25px;
@@ -7,4 +7,5 @@
     background: #ccb1ea;
     cursor: pointer;
     outline: inherit;
+
 }

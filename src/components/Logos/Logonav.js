@@ -1,9 +1,10 @@
 import logonav from './assets/logo-oap.svg'
+import { Link } from 'react-router-dom'
 
 const Logonav = () => {
     return (
         <div>
-            <img src= {logonav} alt='logonav'/>
+            <Link to="/"><img src= {logonav} alt='logonav'/></Link>
         </div>
     )
 }

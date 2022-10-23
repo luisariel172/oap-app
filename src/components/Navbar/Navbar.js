@@ -11,7 +11,7 @@ const Navbar = () => {
                 {/* <h1 style={{color: 'violet'}}>Tienda </h1> */}
             </div>
             <div>
-                <Link to={`/category/souvenir`}className='botones'>Souvenirs</Link>
+                <Link to={`/category/souvenir`} className='botones'>Souvenirs</Link>
                 <Link to={`/category/bandeja`} className='botones'>Bandejas</Link>
                 <Link to={`/category/juguete`} className='botones'>Juguetes</Link>
                 <Link to={`/category/perfume`} className='botones'>Perfumes</Link> 

@@ -10,6 +10,7 @@ const ItemListContainer = () => {
     const { categoryId } = useParams()
 
     useEffect(() => {
+        
         setCargando(true)
         getProducts(categoryId).then(products => {
             setProducts(products)
